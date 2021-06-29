@@ -101,7 +101,8 @@ body {
 
   #btn1 {
     
-    color:var(--orange)
+    color:var(--orange);
+    
   }
 
   #btn2 {
@@ -111,4 +112,52 @@ body {
   #btn3 {
     
     color: var(--darkcyan);
+  }
+
+
+  /* ===== RESPONSIVE =============*/
+
+  @media (min-width: 1000px) {
+
+   body{
+     width: 1000px;
+     padding-top: 4rem;
+     
+   }
+
+    .cards{
+      display: flex;
+      max-width: fit-content;      
+    }
+
+    .cards .sedans {
+      padding: 5rem;
+      border-radius: 6px 0 0 6px;
+      
+    }
+    .cards .suvs {
+      padding: 5rem;
+    }
+    .cards .luxury {
+      padding: 5rem;
+      border-radius: 0 6px 6px 0px;
+    }
+
+    .attribution{
+      margin-top: 1rem;
+      color: var(--darkcyan);
+    }
+
+    
+    #btn1:hover, #btn2:hover, #btn3:hover {
+      cursor: pointer;
+      color: white;
+      background: transparent;
+      border-style: solid;
+      border-color: white;
+      
+     
+      transition: 0.2s;
+    }
+
   }
