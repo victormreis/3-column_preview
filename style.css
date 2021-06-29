@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+:root { 
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --darkcyan: hsl(179, 100%, 13%);
+  --transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --lightgray:hsl(0, 0%, 95%);
+  --deca:'Lexend Deca', sans-serif;
+  --big: 'Big Shoulders Display', cursive;
+
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* ===== BODY =============*/
+
+body { 
+  background: var(--lightgray);
+  color: var(--transparentwhite);
+  margin: auto;
+}
+
+/* ===== CARDS =============*/
+.cards {
+  padding: 2rem 1rem 0 1rem;
+  max-width: 300px;
+  margin: auto;
+}
+
+.cards .sedans {
+  background: var(--orange);
+  padding: 2rem;
+  border-radius: 6px 6px 0 0 ;
+}
+
+.cards .suvs {
+  background: var(--cyan);
+  padding: 2rem;
+}
+
+.cards .luxury {
+  background: var(--darkcyan);
+  padding: 2rem;
+}
+
+/* =====IMAGE =============*/
+
+.cards  .img {
+  margin-bottom: 1.5rem;  
+}
+
+.container img {
+  max-width:50px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+}
+
+/* ===== CARDS TEXT =============*/
+
+.title {
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 2rem;
+  font-family: var(--big);
+}
+
+.text {
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+  font-family: var(--deca);
+  font-weight: 400;
+}
+
+
+/* ===== BUTTON =============*/
+
+.button button {
+  padding: 0.5rem;
+  width: 110px;
+  border-style: hidden;   
+  text-decoration: none;  
+  border-radius: 120px;
+  font-family: var(--deca);
+  
+  }
+
+  #btn1 {
+    
+    color:var(--orange)
+  }
+
+  #btn2 {
+    
+    color:var(--cyan)
+  }
+  #btn3 {
+    
+    color: var(--darkcyan);
+  }
