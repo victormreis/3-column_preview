@@ -11,7 +11,7 @@ Thanks for checking out this front-end coding challenge.
 ## You can See my Project
 
 
-- [GitHub Pages](https://victormreis.github.io/3-column_preview/)
+- [GitHub Pages](https://victormreis.github.io/3ColumnPreview/)
 
 
 
